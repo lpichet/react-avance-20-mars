@@ -1,0 +1,16 @@
+GET http://localhost:3004/posts
+
+###
+
+POST http://localhost:3004/posts
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "test http extension",
+    "author": "lpichet"
+}
+
+###
+
+GET http://localhost:3004/posts/2
